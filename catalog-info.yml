@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component  # Always fixed
+metadata:
+  name: terraform-module-b  # Repository name
+  description: Description of the {{TYPE}} component named terraform-module-b.
+  tags:
+    - backstage
+spec:
+  type: {{TYPE}}
+  lifecycle: production
+  owner: idp-team
